@@ -2,7 +2,7 @@
 
 // Connexion à la base de données.
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=tutoSQL;charset=utf8', 'root', 'c2004v2307');
+    $bdd = new PDO('mysql:host=localhost;dbname=tutoSQL;charset=utf8', '', '');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }
